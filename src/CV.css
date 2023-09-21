@@ -1,0 +1,51 @@
+.CVpage {
+  background-color: #4682b4;
+  display: grid;
+  grid-template-areas:
+    "ResumeBoxOne"
+    "ResumeBoxTwo"
+    "ResumeBoxThree"
+    "ResumeBoxFour";
+}
+
+.ResumeBoxOne {
+  grid-area: ResumeBoxOne;
+  color: whitesmoke;
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+}
+.ResumeBoxTwo {
+  grid-area: ResumeBoxTwo;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ResumeBoxThree {
+  grid-area: ResumeBoxThree;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+}
+.ResumeBoxFour {
+  grid-area: ResumeBoxFour;
+  padding: 29px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.downloadBtn {
+  height: 100%;
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  padding: 9px 39px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.JiaxinResumeImage {
+  height: 500px;
+  padding: 40px;
+  width: 540px;
+}

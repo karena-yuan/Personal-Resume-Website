@@ -1,0 +1,71 @@
+.project-title {
+  color: #0f52ba;
+  text-align: center;
+  height: 110px;
+  font-size: 55px;
+}
+.catPicTwo {
+  height: 330px;
+  width: 430px;
+  object-position: 36px 10%;
+}
+.projectImageOne {
+  height: 330px;
+  width: 430px;
+  object-position: 36px 10%;
+}
+
+section {
+  display: flex;
+  justify-content: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.project-name {
+  font-size: 1.8rem;
+  color: #4682b4;
+}
+
+.project-nameTwo {
+  font-size: 1.8rem;
+  color: #4682b4;
+}
+
+.card {
+  align-self: stretch;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  flex: 0 0 100%;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.card p {
+  font-size: 1.5rem;
+}
+.project-content {
+  font-weight: bold;
+}
+
+.project-contentTwo {
+  font-weight: bold;
+}
+.ProjectBgn {
+  height: 130px;
+  width: 100%;
+  object-position: 50% 50%;
+  display: block;
+}
+
+@media (min-width: 50rem) {
+  .card {
+    flex: 1 1 0;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+  }
+}

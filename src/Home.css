@@ -1,0 +1,193 @@
+.contactInfo {
+  grid-area: contactInfo;
+}
+.formBox {
+  margin-top: 20px;
+  grid-area: contactForm;
+}
+
+.homeTitleBox {
+  background-image: url("./laptop.jpg");
+  background-size: cover; /* Optional */
+  background-position: center; /* Optional */
+  height: 500px;
+}
+
+.LaptopImage {
+  object-fit: cover;
+  height: 590px;
+  width: 100%;
+  object-position: 50% 50%;
+  display: block;
+}
+.header-title {
+  margin: 0;
+  top: 25%;
+  left: 50%;
+  text-align: center;
+  font-size: 55px;
+  color: aliceblue;
+  padding-top: 70px;
+}
+.IntroOne {
+  font-size: 23px;
+  text-align: center;
+  color: aliceblue;
+}
+.IntroTwo {
+  font-size: 23px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.coverStatementBox {
+  background-image: url("blue.jpg");
+  background-size: cover; /* Optional */
+  background-position: center; /* Optional */
+  text-align: center;
+  display: block;
+  margin: 0px;
+}
+.blueImage {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+  object-position: 50% 50%;
+  display: block;
+}
+.coverStatement {
+  margin: 0px;
+  font-size: 40px;
+  color: aliceblue;
+  line-height: 100px;
+}
+.coverContentOne {
+  top: 79%;
+  left: 20%;
+  font-size: 17px;
+  color: aliceblue;
+  line-height: 60px;
+}
+.coverContentTwo {
+  top: 82%;
+  left: 20%;
+  font-size: 17px;
+  color: aliceblue;
+  line-height: 50px;
+}
+.coverContentThree {
+  top: 85%;
+  left: 20%;
+  font-size: 17px;
+  color: aliceblue;
+  line-height: 50px;
+  margin: 0px;
+}
+.BlueBtm {
+  object-fit: cover;
+  height: 600px;
+  width: 100%;
+  object-position: 50% 50%;
+}
+.ConnectText {
+  top: 100%;
+  right: 40%;
+  font-size: 47px;
+  color: aliceblue;
+}
+.MoreInfo {
+  font-size: 23px;
+  color: aliceblue;
+}
+.ConnectTextOne {
+  top: 110%;
+  left: 10%;
+  font-size: 23px;
+  color: aliceblue;
+}
+.ConnectTextTwo {
+  top: 114%;
+  left: 10%;
+  font-size: 23px;
+  color: aliceblue;
+}
+.bottom-linedinImage {
+  height: 44px;
+  display: block;
+  top: 120%;
+  left: 10%;
+  font-size: 18px;
+}
+.container {
+  padding: 15px;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-areas:
+    "box1 box2"
+    "box3 box4";
+  left: 10px;
+  top: 170px;
+}
+
+.box1 {
+  grid-area: box1;
+  line-height: 3;
+}
+.box2 {
+  grid-area: box2;
+  padding-left: 110px;
+  line-height: 3;
+}
+.box3 {
+  grid-area: box3;
+  line-height: 4;
+}
+.box4 {
+  grid-area: box4;
+  line-height: 4;
+  padding-left: 110px;
+}
+.submit {
+  background-color: #0f52ba;
+  color: #fcf5e5;
+  /* padding: 15px 20px;
+  margin: 9px 0; */
+  border: none;
+  cursor: pointer;
+  /* width: 25%; */
+}
+.response {
+  font-size: 1.4rem;
+  color: black;
+  text-align: center;
+  top: 90px;
+}
+.ContactInfoBox {
+  background-image: url("./BlueBtm.jpg");
+  background-size: cover; /* Optional */
+  background-position: center; /* Optional */
+  height: auto;
+  display: grid;
+  grid-template-areas: "contactInfo" "contactForm";
+  /* display: block; */
+  margin: 0px;
+  padding: 35px;
+}
+
+@media (min-width: 44rem) {
+  .ContactInfoBox {
+    display: grid;
+    grid-template-areas: "contactInfo contactForm";
+  }
+  .contactInfo {
+    grid-area: contactInfo;
+  }
+
+  .formBox {
+    margin: auto;
+    grid-area: contactForm;
+  }
+  .response {
+    margin-left: 15px;
+  }
+}

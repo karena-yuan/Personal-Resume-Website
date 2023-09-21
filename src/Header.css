@@ -1,0 +1,88 @@
+.header {
+  display: grid;
+  grid-template-areas: "header-logo header-title" "header-nav header-nav";
+}
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  grid-area: header-nav;
+  width: 100%;
+  height: 300px;
+}
+.NavBtn {
+  flex: 1 1 0px;
+  background-color: white;
+  height: 100%;
+  border-style: none;
+}
+
+.DropDownMenu {
+  background-color: blue;
+  position: relative;
+  flex: 1 1 0px;
+}
+
+.DropDownMenu button {
+  width: 100%;
+  height: 100%;
+}
+.subMenu {
+  height: 75px;
+  flex-direction: column;
+  top: 100%;
+  display: none;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+}
+
+.showSubMenu {
+  display: block;
+  color: aliceblue;
+}
+
+.MenuEduCV button {
+  background-color: aliceblue;
+  text-overflow: clip;
+}
+
+.JXimage {
+  grid-area: header-logo;
+  height: 70px;
+  width: 97px;
+}
+.header-pic {
+  grid-area: header-title;
+  left: 100px;
+}
+.header-linedinImage {
+  height: 44px;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+@media (min-width: 44rem) {
+  .header {
+    display: grid;
+    grid-template-areas: "header-logo header-title  header-nav";
+  }
+  .NavBar {
+    padding: 1px;
+    flex-direction: row;
+    display: flex;
+    height: 70px;
+  }
+}

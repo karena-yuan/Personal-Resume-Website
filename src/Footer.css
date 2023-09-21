@@ -1,0 +1,11 @@
+.bottomTag {
+  background-color: #b6d0e2;
+  text-align: center;
+  height: 35px;
+}
+.LinkedinImage {
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

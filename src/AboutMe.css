@@ -1,0 +1,177 @@
+.more {
+  background-color: #f0ffff;
+}
+.more-header {
+  color: #f0ffff;
+  text-align: center;
+  height: 110px;
+  font-size: 55px;
+}
+.more-intro {
+  text-align: center;
+  font-size: 1.35rem;
+  color: #0f52ba;
+  position: relative;
+  bottom: 58px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  width: 270px;
+  display: block;
+}
+
+.section {
+  display: flex;
+  justify-content: stretch;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.CardMore {
+  align-self: stretch;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  flex: 0 0 100%;
+  align-items: center;
+  border-radius: 20px;
+}
+.MyprofileText {
+  font-size: 1.25rem;
+  line-height: 7px;
+}
+.MyhobbyText {
+  font-size: 1.25rem;
+  line-height: 7px;
+}
+.MyprofileSkills {
+  font-weight: bold;
+  font-size: 1.3rem;
+  bottom: 10px;
+}
+.MyschoolText {
+  color: #0f52ba;
+  font-size: 1.22rem;
+}
+
+.MyschoolTextContent {
+  font-size: 1.2rem;
+}
+
+.MyschoolTextCourseTitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.CourseContent {
+  font-size: 1.2rem;
+  line-height: 45px;
+}
+.MyschoolTextTwo {
+  color: #0f52ba;
+  font-size: 1.7rem;
+}
+.MyschoolTextContentTwo {
+  font-size: 1.2rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+.HbgMenu {
+  display: none;
+}
+.menuBtn {
+  color: yellow;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.TravelText {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-top: 18px;
+}
+.accordion-btn {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.Section {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.activeCard {
+  display: block;
+  font-size: 1.45rem;
+}
+
+.disableCard {
+  display: none;
+}
+
+.accordion:hover {
+  background-color: #ccc;
+}
+.active {
+  background-color: ccc;
+}
+
+.carouselImg {
+  display: none;
+  height: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.carousel-btn {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 0.5px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  text-align: center;
+  font-size: 1.3rem;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.activeImg {
+  display: block;
+}
+
+@media (min-width: 50rem) {
+  .CardMore {
+    flex: 1 1 0;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+  }
+}
